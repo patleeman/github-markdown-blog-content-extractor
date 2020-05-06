@@ -19,4 +19,4 @@ async function getBlogPosts(repo, contentFolder = "") {
   }
 }
 
-exports.default = getBlogPosts;
+module.exports = getBlogPosts;
