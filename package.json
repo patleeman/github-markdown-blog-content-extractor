@@ -1,0 +1,19 @@
+{
+  "name": "github-markdown-blog-content-extractor",
+  "version": "1.0.0",
+  "description": "Small lib to fetch and extract markdown content from github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patleeman/github-markdown-blog-content-extractor.git"
+  },
+  "author": "me@patricklee.nyc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patleeman/github-markdown-blog-content-extractor/issues"
+  },
+  "homepage": "https://github.com/patleeman/github-markdown-blog-content-extractor#readme"
+}
