@@ -15,4 +15,4 @@ async function getBlogPosts(repo, contentFolder = "") {
   return await Promise.all(blogPosts);
 }
 
-module.exports = getBlogPosts;
+export default getBlogPosts;

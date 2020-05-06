@@ -2,18 +2,22 @@
   "name": "github-markdown-blog-content-extractor",
   "version": "1.0.0",
   "description": "Small lib to fetch and extract markdown content from github",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "dev": "rollup -cw"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/patleeman/github-markdown-blog-content-extractor.git"
-  },
+  "repository": "git+https://github.com/patleeman/github-markdown-blog-content-extractor.git",
   "author": "me@patricklee.nyc",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/patleeman/github-markdown-blog-content-extractor/issues"
   },
-  "homepage": "https://github.com/patleeman/github-markdown-blog-content-extractor#readme"
+  "homepage": "https://github.com/patleeman/github-markdown-blog-content-extractor#readme",
+  "dependencies": {
+    "rollup": "^2.7.6"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.0.0"
+  }
 }
