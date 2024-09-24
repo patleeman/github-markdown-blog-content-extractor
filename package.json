@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/patleeman/github-markdown-blog-content-extractor#readme",
   "dependencies": {
-    "rollup": "^2.7.6"
+    "rollup": "^3.29.5"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "^5.0.0"
